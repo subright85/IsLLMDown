@@ -13,18 +13,18 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.083Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-05-21T20:31:07.947Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 94.07,
-        "uptime90d": 98.02,
+        "uptime30d": 94.11,
+        "uptime90d": 98.04,
         "incidentCount30d": 25,
-        "avgMttr30d": 512,
+        "avgMttr30d": 530,
         "lastIncident": "2026-05-21T13:52:46Z",
-        "reliabilityScore": 69,
+        "reliabilityScore": 70,
         "reliabilityScore90d": 90,
         "monthlyTrend": [
           {
@@ -43,7 +43,7 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 18,
-            "uptime": 97.15
+            "uptime": 97.22
           }
         ],
         "tagSummary": [
@@ -92,8 +92,8 @@
           ],
           "audience": "b2c",
           "startedAt": "2026-05-21T13:52:46Z",
-          "resolvedAt": "2026-05-21T15:23:34Z",
-          "durationMinutes": 91,
+          "resolvedAt": null,
+          "durationMinutes": null,
           "url": "https://status.openai.com"
         },
         {
@@ -378,7 +378,7 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
@@ -478,17 +478,17 @@
       },
       "status": {
         "providerId": "anthropic",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.335Z"
+        "indicator": "minor",
+        "description": "Partially Degraded Service",
+        "updatedAt": "2026-05-21T20:31:08.928Z"
       },
       "stats": {
         "providerId": "anthropic",
         "uptime30d": 95.91,
-        "uptime90d": 98.63,
-        "incidentCount30d": 49,
+        "uptime90d": 98.64,
+        "incidentCount30d": 50,
         "avgMttr30d": 75,
-        "lastIncident": "2026-05-20T14:43:17.638Z",
+        "lastIncident": "2026-05-21T20:24:32.488Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 68,
         "monthlyTrend": [
@@ -501,26 +501,26 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 21,
-            "uptime": 99.27
+            "incidentCount": 20,
+            "uptime": 99.29
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 29,
+            "incidentCount": 30,
             "uptime": 95.14
           }
         ],
         "tagSummary": [
           {
-            "tag": "api",
-            "count30d": 41,
+            "tag": "inference",
+            "count30d": 42,
             "count90d": 42
           },
           {
-            "tag": "inference",
-            "count30d": 41,
-            "count90d": 41
+            "tag": "api",
+            "count30d": 42,
+            "count90d": 42
           },
           {
             "tag": "availability",
@@ -545,12 +545,27 @@
         ],
         "audienceBreakdown": {
           "b2b": 1,
-          "b2c": 7,
+          "b2c": 8,
           "both": 2,
           "unknown": 39
         }
       },
       "recentIncidents": [
+        {
+          "id": "zvlgr3k8lny0",
+          "providerId": "anthropic",
+          "title": "Elevated errors on Claude.ai",
+          "severity": "minor",
+          "tags": [
+            "inference",
+            "api"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-05-21T20:24:32.488Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://stspg.io/16wtbm7m7hdy"
+        },
         {
           "id": "4znk51f63g93",
           "providerId": "anthropic",
@@ -759,28 +774,13 @@
           "resolvedAt": "2026-05-12T23:58:01.075Z",
           "durationMinutes": 19,
           "url": "https://stspg.io/m2skyvnzdzl4"
-        },
-        {
-          "id": "c2hjyfpgsprx",
-          "providerId": "anthropic",
-          "title": "Elevated errors for Claude Sonnet 4.6 and Haiku 4.5",
-          "severity": "major",
-          "tags": [
-            "inference",
-            "api"
-          ],
-          "audience": "unknown",
-          "startedAt": "2026-05-12T19:36:38.000Z",
-          "resolvedAt": "2026-05-12T20:13:05.698Z",
-          "durationMinutes": 36,
-          "url": "https://stspg.io/3rkr6cxm3hzg"
         }
       ],
       "components": [
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "0qbwn08sd68x",
@@ -863,7 +863,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:08.970Z"
+        "updatedAt": "2026-05-21T20:31:07.892Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -967,7 +967,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.155Z"
+        "updatedAt": "2026-05-21T20:31:08.073Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1148,7 +1148,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.180Z"
+        "updatedAt": "2026-05-21T20:31:08.111Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1716,7 +1716,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.379Z"
+        "updatedAt": "2026-05-21T20:31:08.661Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1774,7 +1774,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T20:16:09.527Z"
+        "updatedAt": "2026-05-21T20:31:08.976Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1855,7 +1855,7 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 61,
+          "count30d": 62,
           "count90d": 65,
           "trend": "up",
           "providers": [
@@ -1868,8 +1868,8 @@
         },
         {
           "tag": "inference",
-          "count30d": 58,
-          "count90d": 60,
+          "count30d": 59,
+          "count90d": 61,
           "trend": "up",
           "providers": [
             "openai",
@@ -1942,5 +1942,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-21T20:16:10.076Z"
+  "generatedAt": "2026-05-21T20:31:09.405Z"
 }
