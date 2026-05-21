@@ -13,17 +13,17 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:06.273Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-05-21T22:16:03.663Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 94.07,
-        "uptime90d": 98.02,
+        "uptime30d": 94.09,
+        "uptime90d": 98.03,
         "incidentCount30d": 25,
-        "avgMttr30d": 512,
-        "lastIncident": "2026-05-21T13:52:46Z",
+        "avgMttr30d": 532,
+        "lastIncident": "2026-05-21T22:05:52Z",
         "reliabilityScore": 69,
         "reliabilityScore90d": 90,
         "monthlyTrend": [
@@ -36,14 +36,14 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 7,
-            "uptime": 96.05
+            "incidentCount": 6,
+            "uptime": 96.07
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 18,
-            "uptime": 97.16
+            "incidentCount": 19,
+            "uptime": 97.17
           }
         ],
         "tagSummary": [
@@ -58,6 +58,11 @@
             "count90d": 16
           },
           {
+            "tag": "performance",
+            "count30d": 2,
+            "count90d": 2
+          },
+          {
             "tag": "other",
             "count30d": 2,
             "count90d": 2
@@ -66,21 +71,32 @@
             "tag": "availability",
             "count30d": 2,
             "count90d": 2
-          },
-          {
-            "tag": "performance",
-            "count30d": 1,
-            "count90d": 1
           }
         ],
         "audienceBreakdown": {
-          "b2b": 13,
-          "b2c": 7,
+          "b2b": 12,
+          "b2c": 8,
           "both": 2,
           "unknown": 3
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KS695P8GHC0NCMFE96C34KJ1",
+          "providerId": "openai",
+          "title": "Elevated latency and error rates for ChatGPT 5.5 Thinking",
+          "severity": "minor",
+          "tags": [
+            "inference",
+            "performance",
+            "api"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-05-21T22:05:52Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KS5CYS472SA003BQSXSBM8EW",
           "providerId": "openai",
@@ -283,20 +299,6 @@
           "resolvedAt": "2026-05-07T09:38:00Z",
           "durationMinutes": 103,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KQSSQK74KJVJVGCS97TV156G",
-          "providerId": "openai",
-          "title": "Issue affecting some pages on the ChatGPT website",
-          "severity": "minor",
-          "tags": [
-            "inference"
-          ],
-          "audience": "b2c",
-          "startedAt": "2026-05-04T15:29:27Z",
-          "resolvedAt": "2026-05-04T17:10:21Z",
-          "durationMinutes": 101,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -378,7 +380,7 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
@@ -480,7 +482,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:07.086Z"
+        "updatedAt": "2026-05-21T22:16:04.269Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -863,7 +865,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:05.890Z"
+        "updatedAt": "2026-05-21T22:16:03.568Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -967,7 +969,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:06.274Z"
+        "updatedAt": "2026-05-21T22:16:03.882Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1148,7 +1150,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:06.272Z"
+        "updatedAt": "2026-05-21T22:16:03.895Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1716,7 +1718,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:06.939Z"
+        "updatedAt": "2026-05-21T22:16:04.274Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1774,7 +1776,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T22:01:07.182Z"
+        "updatedAt": "2026-05-21T22:16:04.395Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1890,6 +1892,17 @@
           ]
         },
         {
+          "tag": "performance",
+          "count30d": 4,
+          "count90d": 8,
+          "trend": "up",
+          "providers": [
+            "openai",
+            "cohere",
+            "deepseek"
+          ]
+        },
+        {
           "tag": "availability",
           "count30d": 6,
           "count90d": 7,
@@ -1898,17 +1911,6 @@
             "openai",
             "anthropic",
             "cohere"
-          ]
-        },
-        {
-          "tag": "performance",
-          "count30d": 3,
-          "count90d": 7,
-          "trend": "stable",
-          "providers": [
-            "openai",
-            "cohere",
-            "deepseek"
           ]
         },
         {
@@ -1942,5 +1944,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-21T22:01:07.753Z"
+  "generatedAt": "2026-05-21T22:16:04.885Z"
 }
