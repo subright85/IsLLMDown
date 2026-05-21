@@ -13,18 +13,18 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:07.575Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-05-21T14:01:10.117Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 94.06,
-        "uptime90d": 98.02,
+        "uptime30d": 94.11,
+        "uptime90d": 98.04,
         "incidentCount30d": 25,
-        "avgMttr30d": 514,
-        "lastIncident": "2026-05-19T23:32:19Z",
-        "reliabilityScore": 69,
+        "avgMttr30d": 530,
+        "lastIncident": "2026-05-21T13:52:46Z",
+        "reliabilityScore": 70,
         "reliabilityScore90d": 90,
         "monthlyTrend": [
           {
@@ -36,21 +36,21 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 8,
-            "uptime": 95.99
+            "incidentCount": 7,
+            "uptime": 96.05
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 17,
+            "incidentCount": 18,
             "uptime": 97.18
           }
         ],
         "tagSummary": [
           {
             "tag": "inference",
-            "count30d": 16,
-            "count90d": 16
+            "count30d": 17,
+            "count90d": 17
           },
           {
             "tag": "api",
@@ -74,13 +74,28 @@
           }
         ],
         "audienceBreakdown": {
-          "b2b": 14,
-          "b2c": 6,
+          "b2b": 13,
+          "b2c": 7,
           "both": 2,
           "unknown": 3
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KS5CYS472SA003BQSXSBM8EW",
+          "providerId": "openai",
+          "title": "Elevated error rates on ChatGPT paid plans",
+          "severity": "minor",
+          "tags": [
+            "inference",
+            "api"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-05-21T13:52:46Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KS19AHSEE3DAX1HHKNQB166F",
           "providerId": "openai",
@@ -282,20 +297,6 @@
           "resolvedAt": "2026-05-04T17:10:21Z",
           "durationMinutes": 101,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KQHYX4D53W6GT8FDTT9PHBQ3",
-          "providerId": "openai",
-          "title": "Elevated error rate for Responses API",
-          "severity": "minor",
-          "tags": [
-            "api"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-01T14:25:56Z",
-          "resolvedAt": "2026-05-01T15:38:32Z",
-          "durationMinutes": 73,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -377,7 +378,7 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
@@ -479,7 +480,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:08.142Z"
+        "updatedAt": "2026-05-21T14:01:11.030Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -862,7 +863,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:07.211Z"
+        "updatedAt": "2026-05-21T14:01:10.058Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -966,7 +967,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:07.800Z"
+        "updatedAt": "2026-05-21T14:01:10.345Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1147,7 +1148,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:07.750Z"
+        "updatedAt": "2026-05-21T14:01:10.522Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1715,7 +1716,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:07.911Z"
+        "updatedAt": "2026-05-21T14:01:10.865Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1773,7 +1774,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-21T13:46:08.181Z"
+        "updatedAt": "2026-05-21T14:01:11.035Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1867,8 +1868,8 @@
         },
         {
           "tag": "inference",
-          "count30d": 57,
-          "count90d": 59,
+          "count30d": 58,
+          "count90d": 60,
           "trend": "up",
           "providers": [
             "openai",
@@ -1941,5 +1942,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-21T13:46:08.509Z"
+  "generatedAt": "2026-05-21T14:01:11.549Z"
 }
