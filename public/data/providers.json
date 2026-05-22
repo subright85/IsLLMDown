@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:05.961Z"
+        "updatedAt": "2026-05-22T10:46:03.287Z"
       },
       "stats": {
         "providerId": "openai",
@@ -480,16 +480,16 @@
       },
       "status": {
         "providerId": "anthropic",
-        "indicator": "minor",
-        "description": "Partially Degraded Service",
-        "updatedAt": "2026-05-22T10:31:06.905Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-05-22T10:46:03.703Z"
       },
       "stats": {
         "providerId": "anthropic",
-        "uptime30d": 95.49,
-        "uptime90d": 98.5,
+        "uptime30d": 95.48,
+        "uptime90d": 98.49,
         "incidentCount30d": 50,
-        "avgMttr30d": 80,
+        "avgMttr30d": 78,
         "lastIncident": "2026-05-22T10:17:30.262Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 67,
@@ -564,8 +564,8 @@
           ],
           "audience": "unknown",
           "startedAt": "2026-05-22T10:17:30.262Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-05-22T10:31:12.926Z",
+          "durationMinutes": 14,
           "url": "https://stspg.io/546qdwzgz0s9"
         },
         {
@@ -781,27 +781,27 @@
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "0qbwn08sd68x",
           "name": "Claude Console (platform.claude.com)",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "k8w3r06qmzrp",
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "yyzkbfz2thpt",
           "name": "Claude Code",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "bpp5gb3hpjcl",
           "name": "Claude Cowork",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "0scnb50nvy53",
@@ -864,7 +864,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:06.332Z"
+        "updatedAt": "2026-05-22T10:46:02.777Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -968,7 +968,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:06.327Z"
+        "updatedAt": "2026-05-22T10:46:03.285Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1149,7 +1149,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:06.570Z"
+        "updatedAt": "2026-05-22T10:46:03.439Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1717,7 +1717,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:06.625Z"
+        "updatedAt": "2026-05-22T10:46:03.472Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1775,7 +1775,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T10:31:06.991Z"
+        "updatedAt": "2026-05-22T10:46:03.724Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1943,5 +1943,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-22T10:31:07.868Z"
+  "generatedAt": "2026-05-22T10:46:04.755Z"
 }
