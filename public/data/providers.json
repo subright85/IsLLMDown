@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:08.476Z"
+        "updatedAt": "2026-05-22T09:16:04.335Z"
       },
       "stats": {
         "providerId": "openai",
@@ -482,7 +482,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:09.496Z"
+        "updatedAt": "2026-05-22T09:16:05.398Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -864,7 +864,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:08.436Z"
+        "updatedAt": "2026-05-22T09:16:04.313Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -968,7 +968,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:08.683Z"
+        "updatedAt": "2026-05-22T09:16:04.566Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1149,7 +1149,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:08.728Z"
+        "updatedAt": "2026-05-22T09:16:04.637Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1717,7 +1717,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:09.165Z"
+        "updatedAt": "2026-05-22T09:16:05.108Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1775,7 +1775,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T09:01:09.527Z"
+        "updatedAt": "2026-05-22T09:16:05.471Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1943,5 +1943,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-22T09:01:10.478Z"
+  "generatedAt": "2026-05-22T09:16:06.251Z"
 }
