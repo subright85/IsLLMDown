@@ -13,18 +13,18 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:03.437Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-05-22T16:46:03.854Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 94.06,
-        "uptime90d": 98.02,
+        "uptime30d": 94.13,
+        "uptime90d": 98.04,
         "incidentCount30d": 25,
-        "avgMttr30d": 513,
-        "lastIncident": "2026-05-21T22:05:52Z",
-        "reliabilityScore": 69,
+        "avgMttr30d": 529,
+        "lastIncident": "2026-05-22T16:37:50Z",
+        "reliabilityScore": 70,
         "reliabilityScore90d": 90,
         "monthlyTrend": [
           {
@@ -36,13 +36,13 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 6,
-            "uptime": 96.07
+            "incidentCount": 5,
+            "uptime": 96.14
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 19,
+            "incidentCount": 20,
             "uptime": 97.22
           }
         ],
@@ -54,8 +54,8 @@
           },
           {
             "tag": "api",
-            "count30d": 16,
-            "count90d": 16
+            "count30d": 15,
+            "count90d": 15
           },
           {
             "tag": "performance",
@@ -71,6 +71,11 @@
             "tag": "availability",
             "count30d": 2,
             "count90d": 2
+          },
+          {
+            "tag": "rate-limit",
+            "count30d": 1,
+            "count90d": 1
           }
         ],
         "audienceBreakdown": {
@@ -81,6 +86,20 @@
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KS88SRADTWQW27NYRAXMBAQN",
+          "providerId": "openai",
+          "title": "Increase in users hitting Codex rate limits",
+          "severity": "minor",
+          "tags": [
+            "rate-limit"
+          ],
+          "audience": "b2b",
+          "startedAt": "2026-05-22T16:37:50Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KS695P8GHC0NCMFE96C34KJ1",
           "providerId": "openai",
@@ -284,21 +303,6 @@
           "resolvedAt": "2026-05-08T08:31:20Z",
           "durationMinutes": 915,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KR0PY1JN26FEK5829QZ2F59T",
-          "providerId": "openai",
-          "title": "Increased error rate with image generation in the API",
-          "severity": "minor",
-          "tags": [
-            "inference",
-            "api"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-07T07:55:13Z",
-          "resolvedAt": "2026-05-07T09:38:00Z",
-          "durationMinutes": 103,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -350,7 +354,7 @@
         {
           "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
           "name": "CLI",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01KKAD7C71MCCH3FTREMJH4AAS",
@@ -395,7 +399,7 @@
         {
           "id": "01KMP3KP5MGE23B80K1EK4S8PV",
           "name": "Codex API",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
@@ -425,7 +429,7 @@
         {
           "id": "01KMP3KP5M8X0EBTVW6KN327EE",
           "name": "VS Code extension",
-          "status": "operational"
+          "status": "degraded_performance"
         }
       ],
       "news": [
@@ -482,7 +486,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:04.643Z"
+        "updatedAt": "2026-05-22T16:46:04.645Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -864,7 +868,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:03.475Z"
+        "updatedAt": "2026-05-22T16:46:03.789Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -959,7 +963,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:03.667Z"
+        "updatedAt": "2026-05-22T16:46:04.028Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1140,7 +1144,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:03.708Z"
+        "updatedAt": "2026-05-22T16:46:04.222Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1708,7 +1712,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:04.309Z"
+        "updatedAt": "2026-05-22T16:46:04.393Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1766,7 +1770,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T16:31:04.614Z"
+        "updatedAt": "2026-05-22T16:46:05.865Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1847,8 +1851,8 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 63,
-          "count90d": 66,
+          "count30d": 62,
+          "count90d": 65,
           "trend": "up",
           "providers": [
             "openai",
@@ -1914,6 +1918,15 @@
           ]
         },
         {
+          "tag": "rate-limit",
+          "count30d": 1,
+          "count90d": 1,
+          "trend": "up",
+          "providers": [
+            "openai"
+          ]
+        },
+        {
           "tag": "billing",
           "count30d": 1,
           "count90d": 1,
@@ -1921,18 +1934,9 @@
           "providers": [
             "anthropic"
           ]
-        },
-        {
-          "tag": "database",
-          "count30d": 0,
-          "count90d": 1,
-          "trend": "down",
-          "providers": [
-            "cohere"
-          ]
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-22T16:31:05.510Z"
+  "generatedAt": "2026-05-22T16:46:06.225Z"
 }
