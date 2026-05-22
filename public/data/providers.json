@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:05.870Z"
+        "updatedAt": "2026-05-22T05:01:09.633Z"
       },
       "stats": {
         "providerId": "openai",
@@ -482,7 +482,7 @@
         "providerId": "anthropic",
         "indicator": "minor",
         "description": "Minor Service Outage",
-        "updatedAt": "2026-05-22T04:46:06.469Z"
+        "updatedAt": "2026-05-22T05:01:10.068Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -864,7 +864,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:05.552Z"
+        "updatedAt": "2026-05-22T05:01:09.528Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -968,7 +968,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:06.158Z"
+        "updatedAt": "2026-05-22T05:01:09.777Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1149,7 +1149,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:06.151Z"
+        "updatedAt": "2026-05-22T05:01:09.826Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1717,7 +1717,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:06.307Z"
+        "updatedAt": "2026-05-22T05:01:10.242Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1775,7 +1775,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-22T04:46:06.572Z"
+        "updatedAt": "2026-05-22T05:01:10.250Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1943,5 +1943,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-22T04:46:07.045Z"
+  "generatedAt": "2026-05-22T05:01:10.963Z"
 }
