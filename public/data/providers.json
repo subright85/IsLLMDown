@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.086Z"
+        "updatedAt": "2026-05-25T18:45:58.553Z"
       },
       "stats": {
         "providerId": "openai",
@@ -486,14 +486,14 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.493Z"
+        "updatedAt": "2026-05-25T18:45:59.779Z"
       },
       "stats": {
         "providerId": "anthropic",
-        "uptime30d": 95.82,
+        "uptime30d": 95.83,
         "uptime90d": 98.5,
-        "incidentCount30d": 43,
-        "avgMttr30d": 79,
+        "incidentCount30d": 42,
+        "avgMttr30d": 81,
         "lastIncident": "2026-05-25T10:32:38.909Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 67,
@@ -520,12 +520,12 @@
         "tagSummary": [
           {
             "tag": "api",
-            "count30d": 38,
+            "count30d": 37,
             "count90d": 43
           },
           {
             "tag": "inference",
-            "count30d": 35,
+            "count30d": 34,
             "count90d": 41
           },
           {
@@ -551,7 +551,7 @@
         ],
         "audienceBreakdown": {
           "b2b": 0,
-          "b2c": 6,
+          "b2c": 5,
           "both": 2,
           "unknown": 35
         }
@@ -867,7 +867,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:58.996Z"
+        "updatedAt": "2026-05-25T18:45:58.494Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -962,7 +962,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.264Z"
+        "updatedAt": "2026-05-25T18:45:58.792Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1143,7 +1143,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.252Z"
+        "updatedAt": "2026-05-25T18:45:58.894Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1711,7 +1711,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.517Z"
+        "updatedAt": "2026-05-25T18:45:59.369Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1769,7 +1769,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-25T18:30:59.685Z"
+        "updatedAt": "2026-05-25T18:45:59.781Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1850,7 +1850,7 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 57,
+          "count30d": 56,
           "count90d": 65,
           "trend": "up",
           "providers": [
@@ -1863,7 +1863,7 @@
         },
         {
           "tag": "inference",
-          "count30d": 52,
+          "count30d": 51,
           "count90d": 60,
           "trend": "up",
           "providers": [
@@ -1937,5 +1937,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-25T18:31:00.141Z"
+  "generatedAt": "2026-05-25T18:46:00.161Z"
 }
