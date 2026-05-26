@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "minor",
         "description": "Partial System Degradation",
-        "updatedAt": "2026-05-26T22:31:04.834Z"
+        "updatedAt": "2026-05-26T22:46:03.030Z"
       },
       "stats": {
         "providerId": "openai",
@@ -490,7 +490,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:05.491Z"
+        "updatedAt": "2026-05-26T22:46:03.874Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -871,7 +871,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:04.787Z"
+        "updatedAt": "2026-05-26T22:46:03.004Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -966,7 +966,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:05.081Z"
+        "updatedAt": "2026-05-26T22:46:03.233Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1147,7 +1147,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:05.102Z"
+        "updatedAt": "2026-05-26T22:46:03.223Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1715,7 +1715,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:05.379Z"
+        "updatedAt": "2026-05-26T22:46:03.607Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1773,7 +1773,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-26T22:31:05.544Z"
+        "updatedAt": "2026-05-26T22:46:03.805Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1942,5 +1942,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-26T22:31:05.995Z"
+  "generatedAt": "2026-05-26T22:46:04.387Z"
 }
