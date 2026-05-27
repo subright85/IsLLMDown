@@ -15,16 +15,16 @@
         "providerId": "openai",
         "indicator": "minor",
         "description": "Partial System Degradation",
-        "updatedAt": "2026-05-27T17:45:50.396Z"
+        "updatedAt": "2026-05-27T18:00:51.643Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 93.19,
-        "uptime90d": 97.73,
+        "uptime30d": 97.12,
+        "uptime90d": 99.04,
         "incidentCount30d": 25,
-        "avgMttr30d": 609,
-        "lastIncident": "2026-05-27T16:24:26Z",
-        "reliabilityScore": 72,
+        "avgMttr30d": 279,
+        "lastIncident": "2026-05-27T17:57:17Z",
+        "reliabilityScore": 75,
         "reliabilityScore90d": 91,
         "monthlyTrend": [
           {
@@ -36,21 +36,21 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 1,
-            "uptime": 96.14
+            "incidentCount": 0,
+            "uptime": 100
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 24,
-            "uptime": 96.69
+            "incidentCount": 25,
+            "uptime": 96.77
           }
         ],
         "tagSummary": [
           {
             "tag": "inference",
-            "count30d": 15,
-            "count90d": 15
+            "count30d": 14,
+            "count90d": 14
           },
           {
             "tag": "api",
@@ -59,16 +59,11 @@
           },
           {
             "tag": "performance",
-            "count30d": 3,
-            "count90d": 3
+            "count30d": 4,
+            "count90d": 4
           },
           {
             "tag": "other",
-            "count30d": 2,
-            "count90d": 2
-          },
-          {
-            "tag": "availability",
             "count30d": 2,
             "count90d": 2
           },
@@ -81,16 +76,35 @@
             "tag": "rate-limit",
             "count30d": 1,
             "count90d": 1
+          },
+          {
+            "tag": "availability",
+            "count30d": 1,
+            "count90d": 1
           }
         ],
         "audienceBreakdown": {
-          "b2b": 11,
-          "b2c": 8,
+          "b2b": 12,
+          "b2c": 7,
           "both": 2,
           "unknown": 4
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+          "providerId": "openai",
+          "title": "Codex Context Compaction Latency",
+          "severity": "minor",
+          "tags": [
+            "performance"
+          ],
+          "audience": "b2b",
+          "startedAt": "2026-05-27T17:57:17Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KSN40TAYQYGAKFA50HNH22YG",
           "providerId": "openai",
@@ -116,8 +130,8 @@
           ],
           "audience": "b2b",
           "startedAt": "2026-05-27T14:47:02Z",
-          "resolvedAt": "2026-05-27T17:12:55Z",
-          "durationMinutes": 146,
+          "resolvedAt": null,
+          "durationMinutes": null,
           "url": "https://status.openai.com"
         },
         {
@@ -293,32 +307,12 @@
           "resolvedAt": "2026-05-11T17:59:00Z",
           "durationMinutes": 57,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KRAA341YK58M05V2DFGDRMFB",
-          "providerId": "openai",
-          "title": "Users may experience elevated errors in ChatGPT uploading files and Codex Cloud creating tasks",
-          "severity": "minor",
-          "tags": [
-            "inference",
-            "api"
-          ],
-          "audience": "both",
-          "startedAt": "2026-05-11T01:23:13Z",
-          "resolvedAt": "2026-05-11T05:35:41Z",
-          "durationMinutes": 252,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
         {
           "id": "01JP8CD9JR3HR6Y7G4Q75N4DVW",
           "name": "Responses",
-          "status": "operational"
-        },
-        {
-          "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
-          "name": "Embeddings",
           "status": "operational"
         },
         {
@@ -359,12 +353,17 @@
         {
           "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
           "name": "CLI",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01KKAD7C71MCCH3FTREMJH4AAS",
           "name": "FedRAMP",
           "status": "operational"
+        },
+        {
+          "id": "01JMXBRMFEV0AJ0VVS68N9CD6R",
+          "name": "Embeddings",
+          "status": "degraded_performance"
         },
         {
           "id": "01JNKS9D9S72PMP1938PVFFQN4",
@@ -404,7 +403,7 @@
         {
           "id": "01KMP3KP5MGE23B80K1EK4S8PV",
           "name": "Codex API",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
@@ -429,12 +428,12 @@
         {
           "id": "01JMXBRMFEKVBWKK82B44QFMCE",
           "name": "Audio",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01KMP3KP5M8X0EBTVW6KN327EE",
           "name": "VS Code extension",
-          "status": "operational"
+          "status": "degraded_performance"
         }
       ],
       "news": [
@@ -491,7 +490,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:51.173Z"
+        "updatedAt": "2026-05-27T18:00:52.493Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -874,7 +873,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:50.347Z"
+        "updatedAt": "2026-05-27T18:00:51.668Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -969,7 +968,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:50.510Z"
+        "updatedAt": "2026-05-27T18:00:51.887Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1150,7 +1149,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:50.519Z"
+        "updatedAt": "2026-05-27T18:00:51.922Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1718,7 +1717,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:51.034Z"
+        "updatedAt": "2026-05-27T18:00:52.418Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1776,7 +1775,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T17:45:51.237Z"
+        "updatedAt": "2026-05-27T18:00:52.603Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1870,8 +1869,8 @@
         },
         {
           "tag": "inference",
-          "count30d": 51,
-          "count90d": 59,
+          "count30d": 50,
+          "count90d": 58,
           "trend": "up",
           "providers": [
             "openai",
@@ -1882,8 +1881,8 @@
         },
         {
           "tag": "performance",
-          "count30d": 5,
-          "count90d": 9,
+          "count30d": 6,
+          "count90d": 10,
           "trend": "up",
           "providers": [
             "openai",
@@ -1904,8 +1903,8 @@
         },
         {
           "tag": "availability",
-          "count30d": 5,
-          "count90d": 6,
+          "count30d": 4,
+          "count90d": 5,
           "trend": "up",
           "providers": [
             "openai",
@@ -1945,5 +1944,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-27T17:45:51.616Z"
+  "generatedAt": "2026-05-27T18:00:53.227Z"
 }
