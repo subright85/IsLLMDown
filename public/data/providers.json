@@ -15,16 +15,16 @@
         "providerId": "openai",
         "indicator": "minor",
         "description": "Partial System Degradation",
-        "updatedAt": "2026-05-27T16:15:52.364Z"
+        "updatedAt": "2026-05-27T16:30:54.984Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 93.58,
-        "uptime90d": 97.86,
+        "uptime30d": 93.25,
+        "uptime90d": 97.75,
         "incidentCount30d": 25,
-        "avgMttr30d": 599,
-        "lastIncident": "2026-05-27T14:47:02Z",
-        "reliabilityScore": 73,
+        "avgMttr30d": 629,
+        "lastIncident": "2026-05-27T16:24:26Z",
+        "reliabilityScore": 72,
         "reliabilityScore90d": 91,
         "monthlyTrend": [
           {
@@ -36,26 +36,26 @@
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 2,
-            "uptime": 96.1
+            "incidentCount": 1,
+            "uptime": 96.14
           },
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 23,
-            "uptime": 97.16
+            "incidentCount": 24,
+            "uptime": 96.76
           }
         ],
         "tagSummary": [
           {
-            "tag": "api",
+            "tag": "inference",
             "count30d": 15,
             "count90d": 15
           },
           {
-            "tag": "inference",
-            "count30d": 15,
-            "count90d": 15
+            "tag": "api",
+            "count30d": 14,
+            "count90d": 14
           },
           {
             "tag": "performance",
@@ -91,6 +91,20 @@
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KSN40TAYQYGAKFA50HNH22YG",
+          "providerId": "openai",
+          "title": "Android ChatGPT Business users having trouble switching workspaces",
+          "severity": "minor",
+          "tags": [
+            "inference"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-05-27T16:24:26Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KSMYEEWP0BZYANSMAXWJ3K59",
           "providerId": "openai",
@@ -130,8 +144,8 @@
           ],
           "audience": "b2c",
           "startedAt": "2026-05-26T17:01:35Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-05-27T06:01:00Z",
+          "durationMinutes": 779,
           "url": "https://status.openai.com"
         },
         {
@@ -294,20 +308,6 @@
           "resolvedAt": "2026-05-11T05:35:41Z",
           "durationMinutes": 252,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KR50YN2DBMTXGPC6BQSJN48J",
-          "providerId": "openai",
-          "title": "Elevated errors for Responses API",
-          "severity": "major",
-          "tags": [
-            "api"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-09T00:07:17Z",
-          "resolvedAt": "2026-05-09T00:08:01Z",
-          "durationMinutes": 1,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -364,7 +364,7 @@
         {
           "id": "01KKAD7C71MCCH3FTREMJH4AAS",
           "name": "FedRAMP",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JNKS9D9S72PMP1938PVFFQN4",
@@ -491,7 +491,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:53.443Z"
+        "updatedAt": "2026-05-27T16:30:55.785Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -874,7 +874,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:52.403Z"
+        "updatedAt": "2026-05-27T16:30:54.882Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -969,7 +969,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:52.698Z"
+        "updatedAt": "2026-05-27T16:30:55.327Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1150,7 +1150,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:52.705Z"
+        "updatedAt": "2026-05-27T16:30:55.236Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1718,7 +1718,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:53.238Z"
+        "updatedAt": "2026-05-27T16:30:55.549Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1776,7 +1776,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-27T16:15:53.476Z"
+        "updatedAt": "2026-05-27T16:30:55.841Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1857,8 +1857,8 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 59,
-          "count90d": 66,
+          "count30d": 58,
+          "count90d": 65,
           "trend": "up",
           "providers": [
             "openai",
@@ -1945,5 +1945,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-27T16:15:54.040Z"
+  "generatedAt": "2026-05-27T16:30:56.240Z"
 }
