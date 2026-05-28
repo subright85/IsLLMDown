@@ -15,15 +15,15 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.399Z"
+        "updatedAt": "2026-05-28T21:00:45.743Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.48,
-        "uptime90d": 98.83,
+        "uptime30d": 96.51,
+        "uptime90d": 98.84,
         "incidentCount30d": 25,
-        "avgMttr30d": 300,
-        "lastIncident": "2026-05-28T09:34:12Z",
+        "avgMttr30d": 310,
+        "lastIncident": "2026-05-28T20:46:17Z",
         "reliabilityScore": 74,
         "reliabilityScore90d": 91,
         "monthlyTrend": [
@@ -43,19 +43,19 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 25,
-            "uptime": 96.21
+            "uptime": 96.24
           }
         ],
         "tagSummary": [
           {
             "tag": "inference",
-            "count30d": 13,
-            "count90d": 13
+            "count30d": 12,
+            "count90d": 12
           },
           {
             "tag": "api",
-            "count30d": 13,
-            "count90d": 13
+            "count30d": 12,
+            "count90d": 12
           },
           {
             "tag": "performance",
@@ -63,14 +63,14 @@
             "count90d": 4
           },
           {
-            "tag": "other",
+            "tag": "billing",
             "count30d": 2,
             "count90d": 2
           },
           {
-            "tag": "billing",
-            "count30d": 1,
-            "count90d": 1
+            "tag": "other",
+            "count30d": 2,
+            "count90d": 2
           },
           {
             "tag": "auth",
@@ -96,6 +96,20 @@
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KSR5D08APXRBVK8S120N4PDX",
+          "providerId": "openai",
+          "title": "Business plan subscription checkout issues on web and mobile web",
+          "severity": "minor",
+          "tags": [
+            "billing"
+          ],
+          "audience": "unknown",
+          "startedAt": "2026-05-28T20:46:17Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KSPYYC11CCY3KKXEK4E03CBG",
           "providerId": "openai",
@@ -296,21 +310,6 @@
           "resolvedAt": "2026-05-13T10:20:14Z",
           "durationMinutes": 122,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KRG0AZKH41DV4D9SNJSXM33Q",
-          "providerId": "openai",
-          "title": "Realtime API  - SIP/WebRTC flow are down",
-          "severity": "minor",
-          "tags": [
-            "api",
-            "availability"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-13T06:28:11Z",
-          "resolvedAt": "2026-05-13T09:23:49Z",
-          "durationMinutes": 176,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -485,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.833Z"
+        "updatedAt": "2026-05-28T21:00:46.743Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -867,7 +866,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.251Z"
+        "updatedAt": "2026-05-28T21:00:45.567Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -935,7 +934,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.441Z"
+        "updatedAt": "2026-05-28T21:00:45.865Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1116,7 +1115,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.466Z"
+        "updatedAt": "2026-05-28T21:00:45.995Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1684,7 +1683,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.741Z"
+        "updatedAt": "2026-05-28T21:00:46.506Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1742,7 +1741,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T20:45:43.994Z"
+        "updatedAt": "2026-05-28T21:00:47.446Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1823,8 +1822,8 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 55,
-          "count90d": 63,
+          "count30d": 54,
+          "count90d": 62,
           "trend": "up",
           "providers": [
             "openai",
@@ -1835,8 +1834,8 @@
         },
         {
           "tag": "inference",
-          "count30d": 46,
-          "count90d": 55,
+          "count30d": 45,
+          "count90d": 54,
           "trend": "up",
           "providers": [
             "openai",
@@ -1878,6 +1877,16 @@
           ]
         },
         {
+          "tag": "billing",
+          "count30d": 3,
+          "count90d": 4,
+          "trend": "up",
+          "providers": [
+            "openai",
+            "anthropic"
+          ]
+        },
+        {
           "tag": "auth",
           "count30d": 3,
           "count90d": 4,
@@ -1886,16 +1895,6 @@
             "openai",
             "anthropic",
             "cohere"
-          ]
-        },
-        {
-          "tag": "billing",
-          "count30d": 2,
-          "count90d": 3,
-          "trend": "up",
-          "providers": [
-            "openai",
-            "anthropic"
           ]
         },
         {
@@ -1910,5 +1909,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-28T20:45:44.454Z"
+  "generatedAt": "2026-05-28T21:00:47.936Z"
 }
