@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:47.692Z"
+        "updatedAt": "2026-05-28T11:15:50.399Z"
       },
       "stats": {
         "providerId": "openai",
@@ -494,7 +494,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:48.207Z"
+        "updatedAt": "2026-05-28T11:15:50.769Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -522,7 +522,7 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 37,
-            "uptime": 95.34
+            "uptime": 95.35
           }
         ],
         "tagSummary": [
@@ -877,7 +877,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:47.667Z"
+        "updatedAt": "2026-05-28T11:15:50.214Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -972,7 +972,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:47.895Z"
+        "updatedAt": "2026-05-28T11:15:50.513Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1153,7 +1153,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:47.955Z"
+        "updatedAt": "2026-05-28T11:15:50.518Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1721,7 +1721,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:48.005Z"
+        "updatedAt": "2026-05-28T11:15:50.771Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1779,7 +1779,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T11:00:48.336Z"
+        "updatedAt": "2026-05-28T11:15:50.869Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1949,5 +1949,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-28T11:00:49.233Z"
+  "generatedAt": "2026-05-28T11:15:51.450Z"
 }
