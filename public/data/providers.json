@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:39.784Z"
+        "updatedAt": "2026-05-28T19:30:38.372Z"
       },
       "stats": {
         "providerId": "openai",
@@ -451,15 +451,6 @@
           "commentCount": 1
         },
         {
-          "id": "47184495",
-          "title": "Show HN: My iPhone notifies me about cloud outages before they blow up here",
-          "url": "https://apps.apple.com/us/app/pingy-cloud-outage-alerts/id6759363978",
-          "source": "hackernews",
-          "publishedAt": "2026-02-27T19:27:50Z",
-          "points": 1,
-          "commentCount": 0
-        },
-        {
           "id": "47322794",
           "title": "SHOW HN: A usage circuit breaker for Cloudflare Workers",
           "url": "https://news.ycombinator.com/item?id=47322794",
@@ -492,16 +483,16 @@
       },
       "status": {
         "providerId": "anthropic",
-        "indicator": "minor",
-        "description": "Minor Service Outage",
-        "updatedAt": "2026-05-28T19:15:40.656Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-05-28T19:30:39.120Z"
       },
       "stats": {
         "providerId": "anthropic",
-        "uptime30d": 95.62,
+        "uptime30d": 95.61,
         "uptime90d": 98.43,
         "incidentCount30d": 42,
-        "avgMttr30d": 88,
+        "avgMttr30d": 86,
         "lastIncident": "2026-05-28T19:04:04.091Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 67,
@@ -522,7 +513,7 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 38,
-            "uptime": 95.4
+            "uptime": 95.39
           }
         ],
         "tagSummary": [
@@ -575,8 +566,8 @@
           ],
           "audience": "unknown",
           "startedAt": "2026-05-28T19:04:04.091Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-05-28T19:23:57.798Z",
+          "durationMinutes": 20,
           "url": "https://stspg.io/1bm8nzs3bzw2"
         },
         {
@@ -793,12 +784,12 @@
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "id": "0qbwn08sd68x",
           "name": "Claude Console (platform.claude.com)",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "id": "k8w3r06qmzrp",
@@ -876,7 +867,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:39.704Z"
+        "updatedAt": "2026-05-28T19:30:38.299Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -944,7 +935,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:39.952Z"
+        "updatedAt": "2026-05-28T19:30:38.517Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1125,7 +1116,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:40.019Z"
+        "updatedAt": "2026-05-28T19:30:38.450Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1693,7 +1684,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:40.380Z"
+        "updatedAt": "2026-05-28T19:30:39.026Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1751,7 +1742,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-28T19:15:40.596Z"
+        "updatedAt": "2026-05-28T19:30:39.233Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1919,5 +1910,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-28T19:15:41.406Z"
+  "generatedAt": "2026-05-28T19:30:39.686Z"
 }
