@@ -15,15 +15,15 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:05.856Z"
+        "updatedAt": "2026-05-29T13:31:06.518Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.36,
-        "uptime90d": 98.79,
+        "uptime30d": 96.41,
+        "uptime90d": 98.8,
         "incidentCount30d": 25,
-        "avgMttr30d": 310,
-        "lastIncident": "2026-05-29T03:18:24Z",
+        "avgMttr30d": 307,
+        "lastIncident": "2026-05-29T13:20:28Z",
         "reliabilityScore": 74,
         "reliabilityScore90d": 91,
         "monthlyTrend": [
@@ -43,7 +43,7 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 25,
-            "uptime": 96.18
+            "uptime": 96.23
           }
         ],
         "tagSummary": [
@@ -54,8 +54,8 @@
           },
           {
             "tag": "api",
-            "count30d": 11,
-            "count90d": 11
+            "count30d": 10,
+            "count90d": 10
           },
           {
             "tag": "other",
@@ -89,13 +89,27 @@
           }
         ],
         "audienceBreakdown": {
-          "b2b": 11,
-          "b2c": 5,
+          "b2b": 10,
+          "b2c": 6,
           "both": 2,
           "unknown": 7
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KSSY9D28AM92BCDXRTS4CDKZ",
+          "providerId": "openai",
+          "title": "Users May Experience Issues Accessing ChatGPT",
+          "severity": "minor",
+          "tags": [
+            "inference"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-05-29T13:20:28Z",
+          "resolvedAt": "2026-05-29T13:28:52Z",
+          "durationMinutes": 8,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KSRVTZVW4J7NZ3WXM74DG4KX",
           "providerId": "openai",
@@ -296,20 +310,6 @@
           "resolvedAt": "2026-05-17T00:15:05Z",
           "durationMinutes": 1924,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KRM4H2T37TNSS7BCSGXVS8RQ",
-          "providerId": "openai",
-          "title": "Codex Cloud and Code Review experiencing high failure rate",
-          "severity": "minor",
-          "tags": [
-            "other"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-14T20:58:23Z",
-          "resolvedAt": "2026-05-14T21:28:20Z",
-          "durationMinutes": 30,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -484,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:06.872Z"
+        "updatedAt": "2026-05-29T13:31:07.484Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -865,7 +865,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:05.799Z"
+        "updatedAt": "2026-05-29T13:31:06.539Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -933,7 +933,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:05.978Z"
+        "updatedAt": "2026-05-29T13:31:06.724Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1114,7 +1114,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:06.056Z"
+        "updatedAt": "2026-05-29T13:31:06.751Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1682,7 +1682,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:06.607Z"
+        "updatedAt": "2026-05-29T13:31:07.181Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1740,7 +1740,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-29T13:16:06.939Z"
+        "updatedAt": "2026-05-29T13:31:07.423Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1821,8 +1821,8 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 53,
-          "count90d": 61,
+          "count30d": 52,
+          "count90d": 60,
           "trend": "up",
           "providers": [
             "openai",
@@ -1908,5 +1908,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-29T13:16:07.635Z"
+  "generatedAt": "2026-05-29T13:31:08.393Z"
 }
