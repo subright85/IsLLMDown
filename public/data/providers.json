@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:15:54.756Z"
+        "updatedAt": "2026-06-01T12:30:52.945Z"
       },
       "stats": {
         "providerId": "openai",
@@ -482,25 +482,25 @@
       },
       "status": {
         "providerId": "anthropic",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:00:54.359Z"
+        "indicator": "minor",
+        "description": "Partially Degraded Service",
+        "updatedAt": "2026-06-01T12:30:53.928Z"
       },
       "stats": {
         "providerId": "anthropic",
         "uptime30d": 95.6,
         "uptime90d": 98.44,
-        "incidentCount30d": 43,
+        "incidentCount30d": 44,
         "avgMttr30d": 85,
-        "lastIncident": "2026-06-01T09:08:55.932Z",
+        "lastIncident": "2026-06-01T12:15:34.802Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 66,
         "monthlyTrend": [
           {
             "month": "2026-04",
             "label": "Apr 26",
-            "incidentCount": 7,
-            "uptime": 99.71
+            "incidentCount": 6,
+            "uptime": 99.72
           },
           {
             "month": "2026-05",
@@ -511,19 +511,19 @@
           {
             "month": "2026-06",
             "label": "Jun 26",
-            "incidentCount": 2,
-            "uptime": 98.47
+            "incidentCount": 3,
+            "uptime": 98.54
           }
         ],
         "tagSummary": [
           {
             "tag": "api",
-            "count30d": 39,
+            "count30d": 40,
             "count90d": 46
           },
           {
             "tag": "inference",
-            "count30d": 31,
+            "count30d": 32,
             "count90d": 38
           },
           {
@@ -551,10 +551,25 @@
           "b2b": 0,
           "b2c": 4,
           "both": 0,
-          "unknown": 39
+          "unknown": 40
         }
       },
       "recentIncidents": [
+        {
+          "id": "qc88nvqjv99m",
+          "providerId": "anthropic",
+          "title": "Elevated errors for Claude Opus 4.7",
+          "severity": "minor",
+          "tags": [
+            "inference",
+            "api"
+          ],
+          "audience": "unknown",
+          "startedAt": "2026-06-01T12:15:34.802Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://stspg.io/9r2pkqq2zhh6"
+        },
         {
           "id": "z4pz8z34hr4x",
           "providerId": "anthropic",
@@ -758,28 +773,13 @@
           "resolvedAt": "2026-05-21T21:08:57.362Z",
           "durationMinutes": 44,
           "url": "https://stspg.io/16wtbm7m7hdy"
-        },
-        {
-          "id": "4znk51f63g93",
-          "providerId": "anthropic",
-          "title": "Elevated errors on Claude Opus 4.7",
-          "severity": "minor",
-          "tags": [
-            "inference",
-            "api"
-          ],
-          "audience": "unknown",
-          "startedAt": "2026-05-20T14:43:17.638Z",
-          "resolvedAt": "2026-05-20T16:04:37.831Z",
-          "durationMinutes": 81,
-          "url": "https://stspg.io/z9shk9tw2g09"
         }
       ],
       "components": [
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "0qbwn08sd68x",
@@ -789,17 +789,17 @@
         {
           "id": "k8w3r06qmzrp",
           "name": "Claude API (api.anthropic.com)",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "yyzkbfz2thpt",
           "name": "Claude Code",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "bpp5gb3hpjcl",
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "0scnb50nvy53",
@@ -862,7 +862,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:15:54.654Z"
+        "updatedAt": "2026-06-01T12:30:53.552Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -930,7 +930,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:15:54.939Z"
+        "updatedAt": "2026-06-01T12:30:53.254Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1111,7 +1111,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:15:54.893Z"
+        "updatedAt": "2026-06-01T12:30:53.356Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1679,7 +1679,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:15:55.050Z"
+        "updatedAt": "2026-06-01T12:30:53.714Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1737,7 +1737,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T12:00:54.467Z"
+        "updatedAt": "2026-06-01T12:30:54.011Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1818,7 +1818,7 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 53,
+          "count30d": 54,
           "count90d": 62,
           "trend": "up",
           "providers": [
@@ -1830,7 +1830,7 @@
         },
         {
           "tag": "inference",
-          "count30d": 42,
+          "count30d": 43,
           "count90d": 50,
           "trend": "up",
           "providers": [
@@ -1905,5 +1905,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-01T12:15:55.548Z"
+  "generatedAt": "2026-06-01T12:30:54.815Z"
 }
