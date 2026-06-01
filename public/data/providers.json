@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.242Z"
+        "updatedAt": "2026-06-01T00:00:53.153Z"
       },
       "stats": {
         "providerId": "openai",
@@ -28,12 +28,6 @@
         "reliabilityScore90d": 91,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 0,
@@ -44,6 +38,12 @@
             "label": "May 26",
             "incidentCount": 25,
             "uptime": 96.52
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
+            "incidentCount": 0,
+            "uptime": 100
           }
         ],
         "tagSummary": [
@@ -484,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.262Z"
+        "updatedAt": "2026-06-01T00:00:54.207Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -497,12 +497,6 @@
         "reliabilityScore90d": 66,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 9,
@@ -512,7 +506,13 @@
             "month": "2026-05",
             "label": "May 26",
             "incidentCount": 41,
-            "uptime": 95.76
+            "uptime": 95.77
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
+            "incidentCount": 0,
+            "uptime": 100
           }
         ],
         "tagSummary": [
@@ -864,7 +864,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.033Z"
+        "updatedAt": "2026-06-01T00:00:53.173Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -877,12 +877,6 @@
         "reliabilityScore90d": 100,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 0,
@@ -891,6 +885,12 @@
           {
             "month": "2026-05",
             "label": "May 26",
+            "incidentCount": 0,
+            "uptime": 100
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
             "incidentCount": 0,
             "uptime": 100
           }
@@ -932,7 +932,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.263Z"
+        "updatedAt": "2026-06-01T00:00:53.438Z"
       },
       "stats": {
         "providerId": "groq",
@@ -945,12 +945,6 @@
         "reliabilityScore90d": 100,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 1,
-            "uptime": 99.97
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 0,
@@ -959,6 +953,12 @@
           {
             "month": "2026-05",
             "label": "May 26",
+            "incidentCount": 0,
+            "uptime": 100
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
             "incidentCount": 0,
             "uptime": 100
           }
@@ -1113,7 +1113,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.291Z"
+        "updatedAt": "2026-06-01T00:00:53.718Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1126,12 +1126,6 @@
         "reliabilityScore90d": 97,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 3,
@@ -1140,6 +1134,12 @@
           {
             "month": "2026-05",
             "label": "May 26",
+            "incidentCount": 0,
+            "uptime": 100
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
             "incidentCount": 0,
             "uptime": 100
           }
@@ -1681,7 +1681,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.207Z"
+        "updatedAt": "2026-06-01T00:00:54.067Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1694,12 +1694,6 @@
         "reliabilityScore90d": 100,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 0,
@@ -1708,6 +1702,12 @@
           {
             "month": "2026-05",
             "label": "May 26",
+            "incidentCount": 0,
+            "uptime": 100
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
             "incidentCount": 0,
             "uptime": 100
           }
@@ -1739,7 +1739,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-05-31T23:45:52.456Z"
+        "updatedAt": "2026-06-01T00:00:54.339Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1752,12 +1752,6 @@
         "reliabilityScore90d": 100,
         "monthlyTrend": [
           {
-            "month": "2026-03",
-            "label": "Mar 26",
-            "incidentCount": 0,
-            "uptime": 100
-          },
-          {
             "month": "2026-04",
             "label": "Apr 26",
             "incidentCount": 0,
@@ -1766,6 +1760,12 @@
           {
             "month": "2026-05",
             "label": "May 26",
+            "incidentCount": 0,
+            "uptime": 100
+          },
+          {
+            "month": "2026-06",
+            "label": "Jun 26",
             "incidentCount": 0,
             "uptime": 100
           }
@@ -1907,5 +1907,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-05-31T23:45:52.941Z"
+  "generatedAt": "2026-06-01T00:00:54.865Z"
 }
