@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:50.970Z"
+        "updatedAt": "2026-06-01T19:15:52.135Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 96.23
+            "uptime": 96.28
           }
         ],
         "tagSummary": [
@@ -482,16 +482,16 @@
       },
       "status": {
         "providerId": "anthropic",
-        "indicator": "minor",
-        "description": "Partially Degraded Service",
-        "updatedAt": "2026-06-01T19:00:51.845Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-06-01T19:15:52.821Z"
       },
       "stats": {
         "providerId": "anthropic",
-        "uptime30d": 95.53,
+        "uptime30d": 95.52,
         "uptime90d": 98.47,
         "incidentCount30d": 46,
-        "avgMttr30d": 84,
+        "avgMttr30d": 83,
         "lastIncident": "2026-06-01T18:28:42.394Z",
         "reliabilityScore": 61,
         "reliabilityScore90d": 67,
@@ -512,7 +512,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 96.58
+            "uptime": 95.93
           }
         ],
         "tagSummary": [
@@ -571,8 +571,8 @@
           ],
           "audience": "unknown",
           "startedAt": "2026-06-01T18:28:42.394Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-06-01T19:06:53.632Z",
+          "durationMinutes": 38,
           "url": "https://stspg.io/yt45tdcb7c50"
         },
         {
@@ -785,27 +785,27 @@
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "0qbwn08sd68x",
           "name": "Claude Console (platform.claude.com)",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "k8w3r06qmzrp",
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "yyzkbfz2thpt",
           "name": "Claude Code",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "bpp5gb3hpjcl",
           "name": "Claude Cowork",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "0scnb50nvy53",
@@ -859,7 +859,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:50.895Z"
+        "updatedAt": "2026-06-01T19:15:52.022Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -927,7 +927,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:51.181Z"
+        "updatedAt": "2026-06-01T19:15:52.259Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1108,7 +1108,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:51.142Z"
+        "updatedAt": "2026-06-01T19:15:52.304Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1136,7 +1136,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 96.93
+            "uptime": 96.97
           }
         ],
         "tagSummary": [
@@ -1690,7 +1690,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:51.559Z"
+        "updatedAt": "2026-06-01T19:15:52.574Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1748,7 +1748,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-01T19:00:51.875Z"
+        "updatedAt": "2026-06-01T19:15:52.840Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1917,5 +1917,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-01T19:00:52.558Z"
+  "generatedAt": "2026-06-01T19:15:53.638Z"
 }
