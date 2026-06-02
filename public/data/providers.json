@@ -13,16 +13,16 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "minor",
-        "description": "Partial System Degradation",
-        "updatedAt": "2026-06-02T13:15:45.863Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-06-02T13:30:45.544Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.78,
-        "uptime90d": 98.93,
+        "uptime30d": 96.75,
+        "uptime90d": 98.92,
         "incidentCount30d": 25,
-        "avgMttr30d": 279,
+        "avgMttr30d": 271,
         "lastIncident": "2026-06-02T12:04:04Z",
         "reliabilityScore": 71,
         "reliabilityScore90d": 90,
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 2,
-            "uptime": 98.08
+            "uptime": 97.47
           }
         ],
         "tagSummary": [
@@ -107,8 +107,8 @@
           ],
           "audience": "b2c",
           "startedAt": "2026-06-02T12:04:04Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-06-02T13:16:09Z",
+          "durationMinutes": 72,
           "url": "https://status.openai.com"
         },
         {
@@ -391,7 +391,7 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
@@ -484,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:46.673Z"
+        "updatedAt": "2026-06-02T13:30:46.289Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -512,7 +512,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 6,
-            "uptime": 87.12
+            "uptime": 87.21
           }
         ],
         "tagSummary": [
@@ -858,7 +858,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:45.736Z"
+        "updatedAt": "2026-06-02T13:30:45.499Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -926,7 +926,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:45.947Z"
+        "updatedAt": "2026-06-02T13:30:45.697Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1107,7 +1107,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:45.999Z"
+        "updatedAt": "2026-06-02T13:30:45.721Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1135,7 +1135,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 98.43
+            "uptime": 98.45
           }
         ],
         "tagSummary": [
@@ -1689,7 +1689,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:46.352Z"
+        "updatedAt": "2026-06-02T13:30:46.119Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1747,7 +1747,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T13:15:46.703Z"
+        "updatedAt": "2026-06-02T13:30:46.407Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1916,5 +1916,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-02T13:15:47.452Z"
+  "generatedAt": "2026-06-02T13:30:47.302Z"
 }
