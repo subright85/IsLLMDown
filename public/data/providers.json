@@ -13,17 +13,17 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:42.802Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-06-02T12:15:44.788Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.73,
-        "uptime90d": 98.91,
+        "uptime30d": 96.78,
+        "uptime90d": 98.93,
         "incidentCount30d": 25,
-        "avgMttr30d": 272,
-        "lastIncident": "2026-06-01T16:26:44Z",
+        "avgMttr30d": 279,
+        "lastIncident": "2026-06-02T12:04:04Z",
         "reliabilityScore": 71,
         "reliabilityScore90d": 90,
         "monthlyTrend": [
@@ -36,14 +36,14 @@
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 24,
-            "uptime": 96.93
+            "incidentCount": 23,
+            "uptime": 96.98
           },
           {
             "month": "2026-06",
             "label": "Jun 26",
-            "incidentCount": 1,
-            "uptime": 98.01
+            "incidentCount": 2,
+            "uptime": 98.02
           }
         ],
         "tagSummary": [
@@ -89,13 +89,28 @@
           }
         ],
         "audienceBreakdown": {
-          "b2b": 10,
-          "b2c": 7,
+          "b2b": 9,
+          "b2c": 8,
           "both": 1,
           "unknown": 7
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KT43GBSRNH7HG9YE93GPNG63",
+          "providerId": "openai",
+          "title": "Guest users are experiencing elevated error rate when using ChatGPT conversations.",
+          "severity": "minor",
+          "tags": [
+            "inference",
+            "api"
+          ],
+          "audience": "b2c",
+          "startedAt": "2026-06-02T12:04:04Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KT204M76EYZYJX7WYG1B2QPH",
           "providerId": "openai",
@@ -295,21 +310,6 @@
           "resolvedAt": "2026-05-21T15:23:34Z",
           "durationMinutes": 91,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KS19AHSEE3DAX1HHKNQB166F",
-          "providerId": "openai",
-          "title": "API users may see increased error rates for GPT-5.4 and GPT-5.5",
-          "severity": "minor",
-          "tags": [
-            "inference",
-            "api"
-          ],
-          "audience": "b2b",
-          "startedAt": "2026-05-19T23:32:19Z",
-          "resolvedAt": "2026-05-20T00:37:42Z",
-          "durationMinutes": 65,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
@@ -391,7 +391,7 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "operational"
+          "status": "degraded_performance"
         },
         {
           "id": "01JSG1XMJ9RVJJQ0E85NVSJ2AZ",
@@ -484,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:43.499Z"
+        "updatedAt": "2026-06-02T12:15:45.605Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -512,7 +512,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 6,
-            "uptime": 86.67
+            "uptime": 86.76
           }
         ],
         "tagSummary": [
@@ -858,7 +858,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:42.699Z"
+        "updatedAt": "2026-06-02T12:15:44.753Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -926,7 +926,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:42.924Z"
+        "updatedAt": "2026-06-02T12:15:44.966Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1107,7 +1107,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:42.985Z"
+        "updatedAt": "2026-06-02T12:15:44.974Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1135,7 +1135,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 98.38
+            "uptime": 98.39
           }
         ],
         "tagSummary": [
@@ -1689,7 +1689,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:43.306Z"
+        "updatedAt": "2026-06-02T12:15:45.394Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1747,7 +1747,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T12:00:43.482Z"
+        "updatedAt": "2026-06-02T12:15:45.584Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1916,5 +1916,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-02T12:00:45.981Z"
+  "generatedAt": "2026-06-02T12:15:46.055Z"
 }
