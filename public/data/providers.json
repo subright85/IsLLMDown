@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T17:45:46.194Z"
+        "updatedAt": "2026-06-02T18:00:52.372Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 2,
-            "uptime": 97.73
+            "uptime": 97.74
           }
         ],
         "tagSummary": [
@@ -858,7 +858,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T17:45:46.100Z"
+        "updatedAt": "2026-06-02T18:00:52.332Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -926,7 +926,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T17:45:46.340Z"
+        "updatedAt": "2026-06-02T18:00:52.608Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1107,7 +1107,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T17:45:46.360Z"
+        "updatedAt": "2026-06-02T18:00:52.598Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1135,7 +1135,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 98.6
+            "uptime": 98.61
           }
         ],
         "tagSummary": [
@@ -1689,7 +1689,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T17:45:46.452Z"
+        "updatedAt": "2026-06-02T18:00:53.041Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1916,5 +1916,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-02T17:45:47.034Z"
+  "generatedAt": "2026-06-02T18:00:53.758Z"
 }
