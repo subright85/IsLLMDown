@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:40.966Z"
+        "updatedAt": "2026-06-02T06:45:40.974Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 97.65
+            "uptime": 97.67
           }
         ],
         "tagSummary": [
@@ -483,8 +483,8 @@
       "status": {
         "providerId": "anthropic",
         "indicator": "minor",
-        "description": "Partially Degraded Service",
-        "updatedAt": "2026-06-02T06:30:42.207Z"
+        "description": "Minor Service Outage",
+        "updatedAt": "2026-06-02T06:45:41.791Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -494,7 +494,7 @@
         "avgMttr30d": 83,
         "lastIncident": "2026-06-02T06:04:59.243Z",
         "reliabilityScore": 61,
-        "reliabilityScore90d": 67,
+        "reliabilityScore90d": 66,
         "monthlyTrend": [
           {
             "month": "2026-04",
@@ -512,7 +512,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 6,
-            "uptime": 97.43
+            "uptime": 97.45
           }
         ],
         "tagSummary": [
@@ -563,8 +563,8 @@
         {
           "id": "zkr25thltwc9",
           "providerId": "anthropic",
-          "title": "Elevated errors for Claude Opus 4.7",
-          "severity": "minor",
+          "title": "Elevated errors across Claude Opus 4.7, 4.6 and Sonnet 4.6",
+          "severity": "major",
           "tags": [
             "inference",
             "api"
@@ -785,22 +785,22 @@
         {
           "id": "rwppv331jlwc",
           "name": "claude.ai",
-          "status": "degraded_performance"
+          "status": "partial_outage"
         },
         {
           "id": "0qbwn08sd68x",
           "name": "Claude Console (platform.claude.com)",
-          "status": "degraded_performance"
+          "status": "partial_outage"
         },
         {
           "id": "k8w3r06qmzrp",
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded_performance"
+          "status": "partial_outage"
         },
         {
           "id": "yyzkbfz2thpt",
           "name": "Claude Code",
-          "status": "degraded_performance"
+          "status": "partial_outage"
         },
         {
           "id": "bpp5gb3hpjcl",
@@ -859,7 +859,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:41.010Z"
+        "updatedAt": "2026-06-02T06:45:40.863Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -927,7 +927,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:41.224Z"
+        "updatedAt": "2026-06-02T06:45:41.171Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1108,7 +1108,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:41.364Z"
+        "updatedAt": "2026-06-02T06:45:41.348Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1136,7 +1136,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 98.09
+            "uptime": 98.1
           }
         ],
         "tagSummary": [
@@ -1690,7 +1690,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:41.944Z"
+        "updatedAt": "2026-06-02T06:45:41.593Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1748,7 +1748,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T06:30:42.135Z"
+        "updatedAt": "2026-06-02T06:45:41.806Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1917,5 +1917,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-02T06:30:44.019Z"
+  "generatedAt": "2026-06-02T06:45:42.478Z"
 }
