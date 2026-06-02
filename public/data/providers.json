@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.007Z"
+        "updatedAt": "2026-06-02T15:00:51.600Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 2,
-            "uptime": 97.55
+            "uptime": 97.57
           }
         ],
         "tagSummary": [
@@ -484,7 +484,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.248Z"
+        "updatedAt": "2026-06-02T15:00:52.276Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -512,7 +512,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 6,
-            "uptime": 87.62
+            "uptime": 87.7
           }
         ],
         "tagSummary": [
@@ -563,7 +563,7 @@
         {
           "id": "zkr25thltwc9",
           "providerId": "anthropic",
-          "title": "Elevated errors on Opus 4.6",
+          "title": "Elevated errors on multiple models",
           "severity": "major",
           "tags": [
             "api"
@@ -858,7 +858,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:50.877Z"
+        "updatedAt": "2026-06-02T15:00:51.569Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -926,7 +926,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.100Z"
+        "updatedAt": "2026-06-02T15:00:51.797Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1107,7 +1107,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.079Z"
+        "updatedAt": "2026-06-02T15:00:51.888Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1689,7 +1689,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.138Z"
+        "updatedAt": "2026-06-02T15:00:52.023Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1747,7 +1747,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-02T14:45:51.251Z"
+        "updatedAt": "2026-06-02T15:00:52.328Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1916,5 +1916,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-02T14:45:51.772Z"
+  "generatedAt": "2026-06-02T15:00:53.267Z"
 }
