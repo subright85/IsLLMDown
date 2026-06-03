@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:40.942Z"
+        "updatedAt": "2026-06-03T05:30:43.944Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,14 +43,14 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 97.68
+            "uptime": 97.7
           }
         ],
         "tagSummary": [
           {
             "tag": "inference",
-            "count30d": 12,
-            "count90d": 12
+            "count30d": 13,
+            "count90d": 13
           },
           {
             "tag": "api",
@@ -89,9 +89,9 @@
           }
         ],
         "audienceBreakdown": {
-          "b2b": 9,
+          "b2b": 8,
           "b2c": 9,
-          "both": 0,
+          "both": 1,
           "unknown": 7
         }
       },
@@ -99,12 +99,13 @@
         {
           "id": "01KT5XJ5ATD6RMYP908WS69FVD",
           "providerId": "openai",
-          "title": "Elevated error rates on Codex",
+          "title": "Elevated error rates on Codex and ChatGPT",
           "severity": "minor",
           "tags": [
+            "inference",
             "api"
           ],
-          "audience": "b2b",
+          "audience": "both",
           "startedAt": "2026-06-03T04:58:40Z",
           "resolvedAt": null,
           "durationMinutes": null,
@@ -482,7 +483,7 @@
         "providerId": "anthropic",
         "indicator": "minor",
         "description": "Minor Service Outage",
-        "updatedAt": "2026-06-03T05:15:41.912Z"
+        "updatedAt": "2026-06-03T05:30:44.515Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -510,7 +511,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 7,
-            "uptime": 90.99
+            "uptime": 91.03
           }
         ],
         "tagSummary": [
@@ -856,7 +857,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:40.997Z"
+        "updatedAt": "2026-06-03T05:30:43.810Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +925,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:41.134Z"
+        "updatedAt": "2026-06-03T05:30:44.091Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1106,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:41.327Z"
+        "updatedAt": "2026-06-03T05:30:44.135Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1133,7 +1134,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 98.9
+            "uptime": 98.91
           }
         ],
         "tagSummary": [
@@ -1687,7 +1688,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:41.775Z"
+        "updatedAt": "2026-06-03T05:30:44.330Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1745,7 +1746,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:15:42.034Z"
+        "updatedAt": "2026-06-03T05:30:44.581Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1838,8 +1839,8 @@
         },
         {
           "tag": "inference",
-          "count30d": 47,
-          "count90d": 50,
+          "count30d": 48,
+          "count90d": 51,
           "trend": "up",
           "providers": [
             "openai",
@@ -1914,5 +1915,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T05:15:42.722Z"
+  "generatedAt": "2026-06-03T05:30:44.936Z"
 }
