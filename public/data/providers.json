@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "major",
         "description": "Partial System Outage",
-        "updatedAt": "2026-06-03T06:15:44.880Z"
+        "updatedAt": "2026-06-03T06:30:40.766Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 97.73
+            "uptime": 97.74
           }
         ],
         "tagSummary": [
@@ -857,7 +857,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T06:15:44.789Z"
+        "updatedAt": "2026-06-03T06:30:40.666Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -925,7 +925,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T06:15:45.082Z"
+        "updatedAt": "2026-06-03T06:30:40.907Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1106,7 +1106,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T06:15:45.349Z"
+        "updatedAt": "2026-06-03T06:30:41.059Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1688,7 +1688,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T06:15:45.890Z"
+        "updatedAt": "2026-06-03T06:30:41.667Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1915,5 +1915,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T06:15:46.618Z"
+  "generatedAt": "2026-06-03T06:30:42.706Z"
 }
