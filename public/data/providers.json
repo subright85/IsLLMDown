@@ -13,16 +13,16 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "minor",
-        "description": "Partial System Degradation",
-        "updatedAt": "2026-06-03T00:00:41.280Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-06-03T00:15:43.291Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.78,
-        "uptime90d": 98.93,
+        "uptime30d": 96.74,
+        "uptime90d": 98.91,
         "incidentCount30d": 25,
-        "avgMttr30d": 292,
+        "avgMttr30d": 272,
         "lastIncident": "2026-06-02T23:35:44Z",
         "reliabilityScore": 74,
         "reliabilityScore90d": 91,
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 4,
-            "uptime": 98.02
+            "uptime": 97.44
           }
         ],
         "tagSummary": [
@@ -106,8 +106,8 @@
           ],
           "audience": "b2b",
           "startedAt": "2026-06-02T23:35:44Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-06-03T00:13:15Z",
+          "durationMinutes": 38,
           "url": "https://status.openai.com"
         },
         {
@@ -121,8 +121,8 @@
           ],
           "audience": "b2c",
           "startedAt": "2026-06-02T23:28:06Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-06-03T00:14:31Z",
+          "durationMinutes": 46,
           "url": "https://status.openai.com"
         },
         {
@@ -349,7 +349,7 @@
         {
           "id": "01KMKFAMWKNQ84Z1766MV08ZDE",
           "name": "CLI",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01KKAD7C71MCCH3FTREMJH4AAS",
@@ -364,12 +364,12 @@
         {
           "id": "01JNKS9D9S72PMP1938PVFFQN4",
           "name": "Compliance API",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01K8C008QVXHA6JX98PAS42VPD",
           "name": "ChatGPT Atlas",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JMXBRMFEQW613TFE89F45035",
@@ -384,37 +384,37 @@
         {
           "id": "01JMXBNJXGV1T5GT2M9XA83XNG",
           "name": "Conversations",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01K6TVGGGDCP0PPGCHXAG3AQX8",
           "name": "Connectors/Apps",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01KMP3KP5MGE23B80K1EK4S8PV",
           "name": "Codex API",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JSYVYQSWMJ9QG35XHP08BHA7",
           "name": "Deep Research",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JMXBNJXGKKP51D4DEJ2HZJ8Q",
           "name": "Search",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JSFK5QX36ZRW0TW0ZV0ZYFXQ",
           "name": "GPTs",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JQ7EKW990MSPSWVXC7VPV2ZJ",
           "name": "Image Generation",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JMXBRMFEKVBWKK82B44QFMCE",
@@ -424,17 +424,17 @@
         {
           "id": "01KMP3KP5M8X0EBTVW6KN327EE",
           "name": "VS Code extension",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
           "name": "Voice mode",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
           "name": "Login",
-          "status": "degraded_performance"
+          "status": "operational"
         }
       ],
       "news": [
@@ -856,7 +856,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T00:00:41.243Z"
+        "updatedAt": "2026-06-03T00:15:43.047Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +924,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T00:00:41.485Z"
+        "updatedAt": "2026-06-03T00:15:43.274Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1105,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T00:00:41.425Z"
+        "updatedAt": "2026-06-03T00:15:43.301Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1687,7 +1687,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T00:00:41.724Z"
+        "updatedAt": "2026-06-03T00:15:43.245Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1914,5 +1914,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T00:00:43.009Z"
+  "generatedAt": "2026-06-03T00:15:44.078Z"
 }
