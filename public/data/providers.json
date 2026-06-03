@@ -15,17 +15,17 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:43.276Z"
+        "updatedAt": "2026-06-03T11:15:43.169Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.86,
-        "uptime90d": 98.95,
+        "uptime30d": 96.26,
+        "uptime90d": 98.75,
         "incidentCount30d": 25,
-        "avgMttr30d": 273,
+        "avgMttr30d": 276,
         "lastIncident": "2026-06-03T04:58:40Z",
-        "reliabilityScore": 71,
-        "reliabilityScore90d": 90,
+        "reliabilityScore": 69,
+        "reliabilityScore90d": 89,
         "monthlyTrend": [
           {
             "month": "2026-04",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 97.91
+            "uptime": 90.61
           }
         ],
         "tagSummary": [
@@ -107,8 +107,8 @@
           ],
           "audience": "both",
           "startedAt": "2026-06-03T04:58:40Z",
-          "resolvedAt": null,
-          "durationMinutes": null,
+          "resolvedAt": "2026-06-03T11:09:42Z",
+          "durationMinutes": 371,
           "url": "https://status.openai.com"
         },
         {
@@ -483,7 +483,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:44.456Z"
+        "updatedAt": "2026-06-03T11:15:43.998Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -511,7 +511,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 8,
-            "uptime": 87.74
+            "uptime": 87.8
           }
         ],
         "tagSummary": [
@@ -856,7 +856,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:43.345Z"
+        "updatedAt": "2026-06-03T11:15:43.187Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +924,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:43.608Z"
+        "updatedAt": "2026-06-03T11:15:43.433Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1105,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:43.746Z"
+        "updatedAt": "2026-06-03T11:15:43.507Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1133,7 +1133,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 99.01
+            "uptime": 99.02
           }
         ],
         "tagSummary": [
@@ -1687,7 +1687,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:44.252Z"
+        "updatedAt": "2026-06-03T11:15:43.873Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1745,7 +1745,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T11:00:44.523Z"
+        "updatedAt": "2026-06-03T11:15:44.103Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1914,5 +1914,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T11:00:44.912Z"
+  "generatedAt": "2026-06-03T11:15:45.157Z"
 }
