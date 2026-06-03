@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:00:42.625Z"
+        "updatedAt": "2026-06-03T05:15:40.942Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 97.67
+            "uptime": 97.68
           }
         ],
         "tagSummary": [
@@ -54,13 +54,13 @@
           },
           {
             "tag": "api",
-            "count30d": 9,
-            "count90d": 9
+            "count30d": 10,
+            "count90d": 10
           },
           {
             "tag": "other",
-            "count30d": 5,
-            "count90d": 5
+            "count30d": 4,
+            "count90d": 4
           },
           {
             "tag": "performance",
@@ -99,10 +99,10 @@
         {
           "id": "01KT5XJ5ATD6RMYP908WS69FVD",
           "providerId": "openai",
-          "title": "Issue with Codex",
+          "title": "Elevated error rates on Codex",
           "severity": "minor",
           "tags": [
-            "other"
+            "api"
           ],
           "audience": "b2b",
           "startedAt": "2026-06-03T04:58:40Z",
@@ -482,7 +482,7 @@
         "providerId": "anthropic",
         "indicator": "minor",
         "description": "Minor Service Outage",
-        "updatedAt": "2026-06-03T05:00:43.582Z"
+        "updatedAt": "2026-06-03T05:15:41.912Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -510,7 +510,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 7,
-            "uptime": 90.95
+            "uptime": 90.99
           }
         ],
         "tagSummary": [
@@ -856,7 +856,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:00:42.672Z"
+        "updatedAt": "2026-06-03T05:15:40.997Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +924,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:00:42.895Z"
+        "updatedAt": "2026-06-03T05:15:41.134Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1105,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:00:42.842Z"
+        "updatedAt": "2026-06-03T05:15:41.327Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1687,7 +1687,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T05:00:43.162Z"
+        "updatedAt": "2026-06-03T05:15:41.775Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1743,9 +1743,9 @@
       },
       "status": {
         "providerId": "ai21",
-        "indicator": "minor",
-        "description": "Partially Degraded Service",
-        "updatedAt": "2026-06-03T05:00:43.676Z"
+        "indicator": "none",
+        "description": "All Systems Operational",
+        "updatedAt": "2026-06-03T05:15:42.034Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1799,7 +1799,7 @@
         {
           "id": "n313qpb9pclg",
           "name": "Maestro Websearch",
-          "status": "degraded_performance"
+          "status": "operational"
         },
         {
           "id": "8byw33cwy620",
@@ -1826,8 +1826,8 @@
       "tags": [
         {
           "tag": "api",
-          "count30d": 56,
-          "count90d": 60,
+          "count30d": 57,
+          "count90d": 61,
           "trend": "up",
           "providers": [
             "openai",
@@ -1849,8 +1849,8 @@
         },
         {
           "tag": "other",
-          "count30d": 7,
-          "count90d": 12,
+          "count30d": 6,
+          "count90d": 11,
           "trend": "up",
           "providers": [
             "openai",
@@ -1914,5 +1914,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T05:00:44.727Z"
+  "generatedAt": "2026-06-03T05:15:42.722Z"
 }
