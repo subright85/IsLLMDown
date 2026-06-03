@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T14:15:46.615Z"
+        "updatedAt": "2026-06-03T14:30:48.846Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 5,
-            "uptime": 91.06
+            "uptime": 91.1
           }
         ],
         "tagSummary": [
@@ -856,7 +856,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T14:15:46.530Z"
+        "updatedAt": "2026-06-03T14:30:48.767Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +924,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T14:15:46.783Z"
+        "updatedAt": "2026-06-03T14:30:49.060Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1105,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T14:15:46.841Z"
+        "updatedAt": "2026-06-03T14:30:49.142Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1133,7 +1133,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 1,
-            "uptime": 99.06
+            "uptime": 99.07
           }
         ],
         "tagSummary": [
@@ -1687,7 +1687,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-03T14:15:47.244Z"
+        "updatedAt": "2026-06-03T14:30:49.447Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1914,5 +1914,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-03T14:15:48.292Z"
+  "generatedAt": "2026-06-03T14:30:50.191Z"
 }
