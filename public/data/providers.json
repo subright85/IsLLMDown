@@ -13,18 +13,18 @@
       },
       "status": {
         "providerId": "openai",
-        "indicator": "none",
-        "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T19:00:33.645Z"
+        "indicator": "minor",
+        "description": "Partial System Degradation",
+        "updatedAt": "2026-06-04T19:15:33.001Z"
       },
       "stats": {
         "providerId": "openai",
-        "uptime30d": 96.24,
-        "uptime90d": 98.75,
+        "uptime30d": 96.32,
+        "uptime90d": 98.77,
         "incidentCount30d": 25,
-        "avgMttr30d": 278,
-        "lastIncident": "2026-06-04T02:57:25Z",
-        "reliabilityScore": 69,
+        "avgMttr30d": 282,
+        "lastIncident": "2026-06-04T19:12:53Z",
+        "reliabilityScore": 70,
         "reliabilityScore90d": 89,
         "monthlyTrend": [
           {
@@ -36,14 +36,14 @@
           {
             "month": "2026-05",
             "label": "May 26",
-            "incidentCount": 19,
-            "uptime": 97.15
+            "incidentCount": 18,
+            "uptime": 97.23
           },
           {
             "month": "2026-06",
             "label": "Jun 26",
-            "incidentCount": 6,
-            "uptime": 93.52
+            "incidentCount": 7,
+            "uptime": 93.54
           }
         ],
         "tagSummary": [
@@ -81,11 +81,6 @@
             "tag": "rate-limit",
             "count30d": 1,
             "count90d": 1
-          },
-          {
-            "tag": "availability",
-            "count30d": 1,
-            "count90d": 1
           }
         ],
         "audienceBreakdown": {
@@ -96,6 +91,20 @@
         }
       },
       "recentIncidents": [
+        {
+          "id": "01KTA0V0N4KT7VV50DTJZ85XTA",
+          "providerId": "openai",
+          "title": "Image API requests failing with 401s",
+          "severity": "minor",
+          "tags": [
+            "api"
+          ],
+          "audience": "b2b",
+          "startedAt": "2026-06-04T19:12:53Z",
+          "resolvedAt": null,
+          "durationMinutes": null,
+          "url": "https://status.openai.com"
+        },
         {
           "id": "01KT890WC7YQYMX39GY5VG9QAB",
           "providerId": "openai",
@@ -295,31 +304,12 @@
           "resolvedAt": "2026-05-27T17:12:55Z",
           "durationMinutes": 146,
           "url": "https://status.openai.com"
-        },
-        {
-          "id": "01KSJZHDY7E780KF9J2ZZ8M0GE",
-          "providerId": "openai",
-          "title": "Users unable to access chat support on help center",
-          "severity": "minor",
-          "tags": [
-            "other"
-          ],
-          "audience": "unknown",
-          "startedAt": "2026-05-26T20:27:39Z",
-          "resolvedAt": "2026-05-26T20:30:52Z",
-          "durationMinutes": 3,
-          "url": "https://status.openai.com"
         }
       ],
       "components": [
         {
           "id": "01JMXBRMFEMZK0HPK19RYET250",
           "name": "Fine-tuning",
-          "status": "operational"
-        },
-        {
-          "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
-          "name": "Images",
           "status": "operational"
         },
         {
@@ -426,6 +416,11 @@
           "id": "01JMXBNJXGGT5SR5DB9J7GYY48",
           "name": "Voice mode",
           "status": "operational"
+        },
+        {
+          "id": "01JMXBRMFE4MAP2BHSJNZ787WX",
+          "name": "Images",
+          "status": "degraded_performance"
         },
         {
           "id": "01JMXBNJXG1S2D9V65P1ZZTD94",
@@ -856,7 +851,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T19:00:33.659Z"
+        "updatedAt": "2026-06-04T19:15:32.967Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +919,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T19:00:33.854Z"
+        "updatedAt": "2026-06-04T19:15:33.144Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1100,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T19:00:34.002Z"
+        "updatedAt": "2026-06-04T19:15:33.166Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1687,7 +1682,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T19:00:34.470Z"
+        "updatedAt": "2026-06-04T19:15:33.429Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1893,11 +1888,10 @@
         },
         {
           "tag": "availability",
-          "count30d": 2,
-          "count90d": 3,
+          "count30d": 1,
+          "count90d": 2,
           "trend": "up",
           "providers": [
-            "openai",
             "anthropic",
             "cohere"
           ]
@@ -1914,5 +1908,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-04T19:00:35.146Z"
+  "generatedAt": "2026-06-04T19:15:34.680Z"
 }
