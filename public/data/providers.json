@@ -15,7 +15,7 @@
         "providerId": "openai",
         "indicator": "minor",
         "description": "Partial System Degradation",
-        "updatedAt": "2026-06-04T03:00:32.662Z"
+        "updatedAt": "2026-06-04T03:15:32.328Z"
       },
       "stats": {
         "providerId": "openai",
@@ -43,7 +43,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 6,
-            "uptime": 92.58
+            "uptime": 92.6
           }
         ],
         "tagSummary": [
@@ -99,7 +99,7 @@
         {
           "id": "01KT890WC7YQYMX39GY5VG9QAB",
           "providerId": "openai",
-          "title": "Increased latency for Codex compaction",
+          "title": "Increased latency for Codex compaction for a subset of users",
           "severity": "minor",
           "tags": [
             "performance"
@@ -483,7 +483,7 @@
         "providerId": "anthropic",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:33.619Z"
+        "updatedAt": "2026-06-04T03:15:33.146Z"
       },
       "stats": {
         "providerId": "anthropic",
@@ -511,7 +511,7 @@
             "month": "2026-06",
             "label": "Jun 26",
             "incidentCount": 8,
-            "uptime": 90.36
+            "uptime": 90.39
           }
         ],
         "tagSummary": [
@@ -856,7 +856,7 @@
         "providerId": "google-ai",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:32.552Z"
+        "updatedAt": "2026-06-04T03:15:32.307Z"
       },
       "stats": {
         "providerId": "google-ai",
@@ -924,7 +924,7 @@
         "providerId": "groq",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:32.884Z"
+        "updatedAt": "2026-06-04T03:15:32.738Z"
       },
       "stats": {
         "providerId": "groq",
@@ -1105,7 +1105,7 @@
         "providerId": "cohere",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:32.937Z"
+        "updatedAt": "2026-06-04T03:15:32.788Z"
       },
       "stats": {
         "providerId": "cohere",
@@ -1687,7 +1687,7 @@
         "providerId": "perplexity",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:33.224Z"
+        "updatedAt": "2026-06-04T03:15:32.915Z"
       },
       "stats": {
         "providerId": "perplexity",
@@ -1745,7 +1745,7 @@
         "providerId": "ai21",
         "indicator": "none",
         "description": "All Systems Operational",
-        "updatedAt": "2026-06-04T03:00:33.531Z"
+        "updatedAt": "2026-06-04T03:15:33.138Z"
       },
       "stats": {
         "providerId": "ai21",
@@ -1914,5 +1914,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-04T03:00:34.087Z"
+  "generatedAt": "2026-06-04T03:15:34.197Z"
 }
