@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import ProviderCard from './components/ProviderCard';
 import ProviderDetail from './components/ProviderDetail';
 import FloatingDonateButton from './components/FloatingDonateButton';
+import LegalFooter from './components/LegalFooter';
 
 const DATA_URL = 'https://raw.githubusercontent.com/subright85/IsLLMDown/main/public/data/providers.json';
 const COFFEE_URL = import.meta.env.VITE_DONATION_COFFEE_URL ?? 'https://buymeacoffee.com/sukim';
@@ -153,6 +154,7 @@ export default function App() {
 
       {selected && <ProviderDetail data={selected} onClose={() => setSelected(null)} />}
 
+      <LegalFooter />
       <FloatingDonateButton />
       <Analytics />
     </div>
